@@ -1,0 +1,45 @@
+header {
+    background-color: #339DF2;
+    color: #fcd836;
+}
+
+a {
+    color: #fcd836;
+}
+body {
+    background-color: #fcd836;
+    font-family: Georgia;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #339DF2;
+}
+
+section {
+    padding: 10pt;
+}
+
+figcaption {
+    font-size: 12pt;
+}
+
+.headshot-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.current-school {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.map {
+    padding-top: 20px;
+    border-radius: 10px;
+}
