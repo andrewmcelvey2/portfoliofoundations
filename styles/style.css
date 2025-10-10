@@ -1,14 +1,32 @@
+* {
+    font-family: Georgia;
+}
+
 header {
     background-color: #339DF2;
     color: #fcd836;
     width: 100%;
 }
 
-a {
+footer {
+    background-color: #339DF2; 
     color: #fcd836;
+    width: 100%;
+    text-align: center;
 }
+
+nav {
+    padding-bottom: 5px;
+}
+
+nav a {
+    color: #fcd836;
+    padding: 5px;
+}
+
 body {
     background-color: #fcd836;
+    background-image: url('https://www.transparenttextures.com/patterns/brushed-alum-dark.png');
     font-family: Georgia;
     display: flex;
     flex-direction: column;
