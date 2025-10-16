@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles\style.css">
+</head>
+
+<body>
+    <header>
+        <h1 style="text-decoration: underline;">Contact Me</h1> <!--In-Line Code 1-->
+        <nav>
+            <a href="../index.html">Home Page</a>
+            <a href="cssProjects/index.html">CSS Projects</a>
+            <a href="https://www.codecademy.com/profiles/hmcelvey02" target="_blank">My Codecademy Profile</a>
+            <a href="https://github.com/andrewmcelvey2" target="_blank">My GitHib Profile</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Introduction to the page</h2>
+        <p>This is a simulation of a contact page- this does not actually work.</p>
+    </section>
+
+    <section>
+        <form>
+            <h2>Contact Me</h2>
+            <p>All areas with a * are required</p>
+
+            <label for="name">Name: *</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email: *</label>
+            <input type="email" id="email" placeholder="johndoe@gmail.com" required>
+
+            <label for="password">Password:</label>
+            <input tpye="password" id="password" placeholder="Enter a password">
+
+            <label for="phone">Phone Number: *</label>
+            <input tpye="tel" id="phone" placeholder="(123)456-7890" required>
+
+            <label for="website">Website: *</label>
+            <input tpye="url" id="phone" placeholder="https://www.google.com" required>
+
+            <label for="age">Age: *</label>
+            <input type="number" id="age" min="1" max="120" placholder="20" required>
+
+            <label for="dob">Date of Birth: *</label>
+            <input type="date" id="dob" required>
+
+            <label for="time">Preferred Contact Time:</label>
+            <input type="time" id="time">
+
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" value="#007bff">
+
+            <label for="range">Interest Level (1-10) *</label>
+            <input type="range" id="range" min="1" max="10" value="5" required>
+
+            <!--Radio-->
+            <label>Preferred Contact Method: </label>
+            <div>
+                <label>
+                    <input type="radio" name="contactMethod" value="Email" checked>
+                    Email
+                </label>
+
+                <label>
+                    <input type="radio" name="contactMethod" value="Phone">
+                    Phone
+                </label>
+
+                <label>
+                    <input type="radio" name="contactMethod" value="Text">
+                    Text
+                </label>
+            </div>
+
+            <!--Checkboxes-->
+            <label>Services Interested in:</label>
+            <div>
+                <label>
+                    <input type="checkbox" name="serve" value="Web Design">
+                    Web Design
+                </label>
+
+                <label>
+                    <input type="checkbox" name="service" value="Consulting">
+                    Consulting
+                </label>
+
+                <label>
+                    <input type="checkbox" name="service" value="Other">
+                    Other
+                </label>
+            </div>
+
+            <!--Select Dropdown-->
+            <label for="topic">Topic: </label>
+            <select id="topic">
+                <option value="General">General Inquiry</option>
+                <option value="Support">Support</option>
+                <option value="Feedback">Fedback</option>
+            </select>
+
+            <!--Text Area-->
+            <label for="message">Message: *</label>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <!--Submit Button-->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>Created by <b>Andrew McElvey</b></footer>
+</body>
+
+</html>
